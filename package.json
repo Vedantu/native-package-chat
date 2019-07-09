@@ -54,6 +54,6 @@
     "react-native-document-picker": "^2.3.0",
     "react-native-image-crop-picker": "^0.24.0",
     "react-native-image-picker": "^0.28.1",
-    "stream-chat-react-native-core": "v0.1.13"
+    "stream-chat-react-native-core": "git+https://github.com/Vedantu/stream-chat-react-native.git"
   }
 }
