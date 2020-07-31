@@ -1346,7 +1346,7 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-axios@^0.18.0:
+axios@^0.18.1:
   version "0.18.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
   integrity sha512-0BfJq4NSfQXd+SkFdrvFbG7addhYSBA2mQwISr46pD6E5iqkWg02RAs8vyTT/j0RTnoYmeXauBuSv1qKwR179g==
@@ -1447,9 +1447,9 @@ bluebird@^3.5.1, bluebird@^3.5.5:
   integrity sha512-5am6HnnfN+urzt4yfg7IgTbotDjIT/u8AJpEt0sIU9FtXfVeezXAPKswrG+xKUCOYAINpSdgZVDU6QFh+cuH3w==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
-  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+  version "4.11.9"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
+  integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
 
 body-parser@1.19.0:
   version "1.19.0"
@@ -2495,9 +2495,9 @@ electron-to-chromium@^1.3.164, electron-to-chromium@^1.3.62:
   integrity sha512-7XwtJz81H/PBnkmQ/07oVPOGTkBZs6ibZN8OqXNUrxjRPzR0Xj+MFcMmRZEXGilEg1Pm+97V8BZVI63qnBX1hQ==
 
 elliptic@^6.0.0:
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.4.1.tgz#c2d0b7776911b86722c632c3c06c60f2f819939a"
-  integrity sha512-BsXLz5sqX8OHcsh7CqBMztyXARmGQ3LWPtGjJi6DiJHq5C/qvi9P3OqgswKSDftbu8+IoI/QDTAm2fFnQ9SZSQ==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
+  integrity sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==
   dependencies:
     bn.js "^4.4.0"
     brorand "^1.0.1"
@@ -6256,10 +6256,10 @@ stream-browserify@^2.0.1:
     inherits "~2.0.1"
     readable-stream "^2.0.2"
 
-stream-chat-react-native-core@v0.1.12:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/stream-chat-react-native-core/-/stream-chat-react-native-core-0.1.12.tgz#92f699db6ebd184d10f3873607b17cf847071977"
-  integrity sha512-8TMVTJZoALUdDL4FurLVnjXPi3E4EGPHtg5kzA8XNv/MshtlMZOuYWtCu5XufWsCmCC7CPlNodsDkBw3slh/9g==
+"stream-chat-react-native-core@git+https://github.com/Vedantu/stream-chat-react-native.git":
+  version "0.1.14"
+  uid "63659f5e62b269e02770c4ccfe6339915641dcf4"
+  resolved "git+https://github.com/Vedantu/stream-chat-react-native.git#63659f5e62b269e02770c4ccfe6339915641dcf4"
   dependencies:
     "@babel/runtime" "^7.1.2"
     "@stream-io/react-native-simple-markdown" "^1.1.1"
@@ -6278,16 +6278,16 @@ stream-chat-react-native-core@v0.1.12:
     react-native-actionsheet "^2.4.2"
     react-native-image-zoom-viewer "^2.2.25"
     seamless-immutable "^7.1.4"
-    stream-chat "^0.13.4"
+    stream-chat "^0.13.5"
     uuid "^3.3.2"
 
-stream-chat@^0.13.4:
-  version "0.13.5"
-  resolved "https://registry.yarnpkg.com/stream-chat/-/stream-chat-0.13.5.tgz#9dbf29dc5f5334833c8850d6d30b0fe296e29445"
-  integrity sha512-Re+ZAu3xYfWZy42OQx0Uaoo1HT65R5QgXTZPCRcH0mbZBKDdgqwD/BQHbmwhvHozfAWfLplBeEqaIUFnzXiAyw==
+stream-chat@^0.13.5:
+  version "0.13.8"
+  resolved "https://registry.yarnpkg.com/stream-chat/-/stream-chat-0.13.8.tgz#fb3a60711cd6b74892a619d0f664ad8f25817692"
+  integrity sha512-a/G2PgWSnvKq0OqBm9Cs3/posmbqUDdGZ5FGWuaJs6cztMOFG6yze1mCQIV7PeCjMtP/DHld7OFrT0Q2dWvC6g==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    axios "^0.18.0"
+    axios "^0.18.1"
     chai-arrays "^2.0.0"
     cross-fetch "^3.0.0"
     form-data "^2.3.3"
