@@ -54,7 +54,7 @@ if (Platform.OS === 'android') {
   if (typeof Symbol === 'undefined') {
     require('es6-symbol/implement');
     if (Array.prototype[Symbol.iterator] === undefined) {
-      Array.prototype[Symbol.iterator] = function() {
+      Array.prototypes[Symbol.iterator] = function() {
         let i = 0;
         return {
           next: () => ({
