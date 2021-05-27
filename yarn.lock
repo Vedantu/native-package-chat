@@ -1346,7 +1346,7 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-axios@^0.18.0:
+axios@^0.18.1:
   version "0.18.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
   integrity sha512-0BfJq4NSfQXd+SkFdrvFbG7addhYSBA2mQwISr46pD6E5iqkWg02RAs8vyTT/j0RTnoYmeXauBuSv1qKwR179g==
@@ -2424,9 +2424,9 @@ dns-equal@^1.0.0:
   integrity sha1-s55/HabrCnW6nBcySzR1PEfgZU0=
 
 dns-packet@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.1.tgz#12aa426981075be500b910eedcd0b47dd7deda5a"
-  integrity sha512-0UxfQkMhYAUaZI+xrNZOz/as5KgDU0M/fQ9b6SpkyLbk3GEswDi6PADJVaYJradtRVsRIlF1zLyOodbcTCDzUg==
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.4.tgz#e3455065824a2507ba886c55a89963bb107dec6f"
+  integrity sha512-BQ6F4vycLXBvdrJZ6S3gZewt6rcrks9KBgM9vrhW+knGRqc8uEdT7fuCwloc7nny5xNoMJ17HGH0R/6fpo8ECA==
   dependencies:
     ip "^1.1.0"
     safe-buffer "^5.0.1"
@@ -5867,10 +5867,15 @@ rxjs@^6.1.0:
   dependencies:
     tslib "^1.9.0"
 
-safe-buffer@5.1.2, safe-buffer@>=5.1.0, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+
+safe-buffer@>=5.1.0, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
 safe-regex@^1.1.0:
   version "1.1.0"
@@ -6256,10 +6261,10 @@ stream-browserify@^2.0.1:
     inherits "~2.0.1"
     readable-stream "^2.0.2"
 
-stream-chat-react-native-core@v0.1.12:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/stream-chat-react-native-core/-/stream-chat-react-native-core-0.1.12.tgz#92f699db6ebd184d10f3873607b17cf847071977"
-  integrity sha512-8TMVTJZoALUdDL4FurLVnjXPi3E4EGPHtg5kzA8XNv/MshtlMZOuYWtCu5XufWsCmCC7CPlNodsDkBw3slh/9g==
+"stream-chat-react-native-core@git+https://github.com/Vedantu/stream-chat-react-native.git":
+  version "0.1.14"
+  uid "63659f5e62b269e02770c4ccfe6339915641dcf4"
+  resolved "git+https://github.com/Vedantu/stream-chat-react-native.git#63659f5e62b269e02770c4ccfe6339915641dcf4"
   dependencies:
     "@babel/runtime" "^7.1.2"
     "@stream-io/react-native-simple-markdown" "^1.1.1"
@@ -6278,16 +6283,16 @@ stream-chat-react-native-core@v0.1.12:
     react-native-actionsheet "^2.4.2"
     react-native-image-zoom-viewer "^2.2.25"
     seamless-immutable "^7.1.4"
-    stream-chat "^0.13.4"
+    stream-chat "^0.13.5"
     uuid "^3.3.2"
 
-stream-chat@^0.13.4:
-  version "0.13.5"
-  resolved "https://registry.yarnpkg.com/stream-chat/-/stream-chat-0.13.5.tgz#9dbf29dc5f5334833c8850d6d30b0fe296e29445"
-  integrity sha512-Re+ZAu3xYfWZy42OQx0Uaoo1HT65R5QgXTZPCRcH0mbZBKDdgqwD/BQHbmwhvHozfAWfLplBeEqaIUFnzXiAyw==
+stream-chat@^0.13.5:
+  version "0.13.8"
+  resolved "https://registry.yarnpkg.com/stream-chat/-/stream-chat-0.13.8.tgz#fb3a60711cd6b74892a619d0f664ad8f25817692"
+  integrity sha512-a/G2PgWSnvKq0OqBm9Cs3/posmbqUDdGZ5FGWuaJs6cztMOFG6yze1mCQIV7PeCjMtP/DHld7OFrT0Q2dWvC6g==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    axios "^0.18.0"
+    axios "^0.18.1"
     chai-arrays "^2.0.0"
     cross-fetch "^3.0.0"
     form-data "^2.3.3"
