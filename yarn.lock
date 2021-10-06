@@ -1346,7 +1346,7 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-axios@^0.18.0:
+axios@^0.18.1:
   version "0.18.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
   integrity sha512-0BfJq4NSfQXd+SkFdrvFbG7addhYSBA2mQwISr46pD6E5iqkWg02RAs8vyTT/j0RTnoYmeXauBuSv1qKwR179g==
@@ -5228,9 +5228,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
@@ -6256,10 +6256,10 @@ stream-browserify@^2.0.1:
     inherits "~2.0.1"
     readable-stream "^2.0.2"
 
-stream-chat-react-native-core@v0.1.12:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/stream-chat-react-native-core/-/stream-chat-react-native-core-0.1.12.tgz#92f699db6ebd184d10f3873607b17cf847071977"
-  integrity sha512-8TMVTJZoALUdDL4FurLVnjXPi3E4EGPHtg5kzA8XNv/MshtlMZOuYWtCu5XufWsCmCC7CPlNodsDkBw3slh/9g==
+"stream-chat-react-native-core@git+https://github.com/Vedantu/stream-chat-react-native.git":
+  version "0.1.14"
+  uid "63659f5e62b269e02770c4ccfe6339915641dcf4"
+  resolved "git+https://github.com/Vedantu/stream-chat-react-native.git#63659f5e62b269e02770c4ccfe6339915641dcf4"
   dependencies:
     "@babel/runtime" "^7.1.2"
     "@stream-io/react-native-simple-markdown" "^1.1.1"
@@ -6278,16 +6278,16 @@ stream-chat-react-native-core@v0.1.12:
     react-native-actionsheet "^2.4.2"
     react-native-image-zoom-viewer "^2.2.25"
     seamless-immutable "^7.1.4"
-    stream-chat "^0.13.4"
+    stream-chat "^0.13.5"
     uuid "^3.3.2"
 
-stream-chat@^0.13.4:
-  version "0.13.5"
-  resolved "https://registry.yarnpkg.com/stream-chat/-/stream-chat-0.13.5.tgz#9dbf29dc5f5334833c8850d6d30b0fe296e29445"
-  integrity sha512-Re+ZAu3xYfWZy42OQx0Uaoo1HT65R5QgXTZPCRcH0mbZBKDdgqwD/BQHbmwhvHozfAWfLplBeEqaIUFnzXiAyw==
+stream-chat@^0.13.5:
+  version "0.13.8"
+  resolved "https://registry.yarnpkg.com/stream-chat/-/stream-chat-0.13.8.tgz#fb3a60711cd6b74892a619d0f664ad8f25817692"
+  integrity sha512-a/G2PgWSnvKq0OqBm9Cs3/posmbqUDdGZ5FGWuaJs6cztMOFG6yze1mCQIV7PeCjMtP/DHld7OFrT0Q2dWvC6g==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    axios "^0.18.0"
+    axios "^0.18.1"
     chai-arrays "^2.0.0"
     cross-fetch "^3.0.0"
     form-data "^2.3.3"
@@ -6770,9 +6770,9 @@ urix@^0.1.0:
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
 url-parse@^1.1.8, url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.3.tgz#71c1303d38fb6639ade183c2992c8cc0686df862"
+  integrity sha512-IIORyIQD9rvj0A4CLWsHkBBJuNqWpFQe224b6j9t/ABmquIS0qDU2pY6kl6AuOrL5OkCXHMCFNe1jBcuAggjvQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
